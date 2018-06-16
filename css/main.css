@@ -54,12 +54,8 @@ form select{
 option{
     text-align: center;
 }
-
-
-
 .usetime{
     width: 160px;
-    float: left;
     border-right: #e6e6e6 1px solid;
     position: absolute;
     padding: 16px 0px 30px;
@@ -176,15 +172,15 @@ option{
     position: absolute;
 }
 .month_over{
-    overflow-x:auto;
-    white-space: nowrap ;
     width: 100vw;
+    overflow-x: auto;
+    white-space:nowrap; 
 }
 .month{
     width:72vw;
-    min-width: 853px;
     margin: 0px auto 50px;
     max-width: 1380px;
+    min-width: 853px;
     height: 84px;
     padding: 0 20px;
 }
@@ -232,7 +228,7 @@ option{
 .type_li_1{
     border-bottom: #04d1b2 5px solid;
     display: table-cell;
-    padding: 12px 20px;
+    padding: 11px 20px;
 }
 .type_button{
     color: #a3a3a3;

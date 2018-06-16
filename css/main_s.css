@@ -41,7 +41,13 @@
     .input_search{
         width: 100%;
     }
+    .input_search:focus{
+        width: 99%;
+    }
     .act_month{
-        opacity: 0;
+        display: none;
+    }
+    .month_s:hover,.gojoin:hover,.user:hover,.type_li:hover,.info:hover{
+        display: none;
     }
 }
