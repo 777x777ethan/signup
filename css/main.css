@@ -175,13 +175,18 @@ option{
     padding-top:5px;
     position: absolute;
 }
+.month_over{
+    overflow-x:auto;
+    white-space: nowrap ;
+    width: 100vw;
+}
 .month{
     width:72vw;
     min-width: 853px;
     margin: 0px auto 50px;
     max-width: 1380px;
     height: 84px;
-
+    padding: 0 20px;
 }
 .month_1{
     background: -webkit-linear-gradient(bottom,#04d1afc9,#04d1af52,#04d1af1f,#ffffff00);
@@ -214,7 +219,6 @@ option{
 .act_type{
     height: 50px;
     max-width: 1600px;
-    min-width: 890px;
     width: 90vw;
     margin: 0px auto;
     border-bottom: #e6e6e6 1px solid;
@@ -240,7 +244,6 @@ option{
 }
 .work{
     max-width: 1600px;
-    min-width: 890px;
     width: 90vw;
     margin: 0px auto;
 }

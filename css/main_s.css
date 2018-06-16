@@ -1,0 +1,47 @@
+@media screen and (max-width: 360px){
+    .type_li{
+        padding: 13px 8px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .work{
+        width: 280px;
+    }
+    .search_button{
+        top:50px;
+        width: 100%;
+        border-radius: 3px;
+        left: 0%;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .work{
+        width: 576px;
+    }
+    .search_button{
+        top:50px;
+        width: 80%;
+        border-radius: 3px;
+        left: 10%;
+    }
+}
+@media screen and (min-width: 900px){
+    .work{
+        min-width: 890px;
+    }
+    .act_type{
+        min-width: 890px;
+    }
+}
+@media screen and (max-width: 900px){
+    .search_room{
+        width: 90%;
+    }
+    .input_search{
+        width: 100%;
+    }
+    .act_month{
+        opacity: 0;
+    }
+}
