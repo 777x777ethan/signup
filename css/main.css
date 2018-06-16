@@ -230,9 +230,9 @@ option{
     padding: 13px 20px;
 }
 .type_li_1{
-    border-bottom: #04d1b2 2px solid;
+    border-bottom: #04d1b2 5px solid;
     display: table-cell;
-    padding: 13px 20px;
+    padding: 12px 20px;
 }
 .type_button{
     color: #a3a3a3;
