@@ -249,7 +249,7 @@ option{
     min-width: 280px;
     width: 32%;
     float: left;
-    margin: 0 0.6666%;
+    margin: 0 0.6666% 30px;
     position: relative;
 }
 .time_work{
@@ -259,10 +259,10 @@ option{
 }
 .act_title{
     width: 100%;
-    padding-bottom: 20px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    height: 73px;
 }
 .cass{
     max-width: 520px;
@@ -342,11 +342,6 @@ option{
 .info:hover{
     opacity: 1;
 }
-
-
-
-
-
 .month_s:hover,.gojoin:hover,.user:hover,.type_li:hover{
     background: -webkit-linear-gradient(bottom,#f4f4f4,#ffffff00);
     background: -o-linear-gradient(bottom,#f4f4f4,#ffffff00);
