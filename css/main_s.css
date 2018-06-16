@@ -47,7 +47,7 @@
     .act_month{
         display: none;
     }
-    .month_s:hover,.gojoin:hover,.user:hover,.type_li:hover,.info:hover{
+    .info:hover{
         display: none;
     }
 }
