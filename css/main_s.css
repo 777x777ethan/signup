@@ -44,10 +44,7 @@
     .input_search:focus{
         width: 99%;
     }
-    .act_month{
-        display: none;
-    }
-    .info:hover{
+    .usetime_info,.gojoin_info,info,act_month,.user_info{
         display: none;
     }
 }
